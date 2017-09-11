@@ -6,6 +6,11 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url('../img/header.jpg');
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   background-position: center;
   @include background-cover;
   .header-content {
