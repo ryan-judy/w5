@@ -11,6 +11,7 @@
           scrollTop: (target.offset().top - 48)
         }, 1000, "easeInOutExpo");
         return false;
+
       }
     }
   });
@@ -29,11 +30,14 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
+
       $("#mainNav").addClass("navbar-shrink");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
+
+  
 
   // Scroll reveal calls
   window.sr = ScrollReveal();
@@ -68,6 +72,5 @@
     }
   });
 
-  
 
 })(jQuery); // End of use strict
