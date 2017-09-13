@@ -31,7 +31,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">YOUNG TEAM REALTORS / KELLER WILLIAMS</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">The w.5th Townhomes</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,13 +39,13 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
-            </li>            
+            </li>   
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Amenities</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+            </li>                     
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Floor Plans</a>
             </li>
@@ -60,7 +60,7 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading"></h1><img src = "./img/project logo.png" class = "logo">
+          <h1 id="homeHeading"></h1><img src = "./img/project logo.png" class = "logo sr-logo">
           <hr>
           <p>Modern and elegant new construction townhomes in Cleveland</p>
           <a class="btn-trans btn-xl js-scroll-trigger" href="#about">Find Out More</a>
@@ -72,9 +72,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">About The W. 5th Townhomes</h2>
+            <h2 class="section-heading">About The W. 5th Townhomes</h2>
             <hr class="light">
-            <p class="text-faded">Located in the highly desirable Tremont neighborhood of Cleveland, these townhomes....</p>
+            <p>Located in the highly desirable Tremont neighborhood of Cleveland, these townhomes....</p>
             <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
           </div>
         </div>
@@ -108,14 +108,14 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+              <i class="fa fa-4x fa-home text-primary sr-icons"></i>
               <h3>Open Floor Plan</h3>
               <p class="text-muted">Blah Blah.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <i class="fa fa-4x fa-building text-primary sr-icons"></i>
               <h3>Roof Top Deck</h3>
               <p class="text-muted">Blah Blah.</p>
             </div>
@@ -123,7 +123,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class = "gallery">
         <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -174,7 +174,7 @@
 </div>
 </section>
 
-    <section class="p-0" id="portfolio">
+    <section class="mb-2" id="portfolio">
             <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -292,9 +292,10 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">WANT MORE INFORMATION?</h2>
             <hr class="primary">
-            <p>Have questions? Learn more about living at The W. 5th Townhomes in Tremont by giving us a call or sending us an email and we will get back to you as soon as possible!</p>
+              <p class = "text-muted px-5 text-center">Have questions? Learn more about living at The W. 5th Townhomes in Tremont by giving us a call or sending us an email and we will get back to you as soon as possible!</p>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -307,49 +308,72 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="search-text"> 
-            <div class="container">
-                <div class="row text-center ">
-                  <div class="col-lg-12">
-                   <div class="form">
-                        <form id="search-form" class="form-search form-horizontal">
-                            <input type="text" class="input-search" placeholder="Email Address">
-                            <button type="submit" class="btn-search">SUBMIT</button>
-                        </form>
-                    </div>
-                   </div> 
-                
-                </div>         
-            </div>     
+        <div class = "row mx-5">
+        <div class = "col-lg-1">
         </div>
+          <div class = "col-lg-3">
+            <label class="form-control-label" for="form-group-input">Name</label>
+            <input type="text" class="form-control" id="form-group-input" name="name">
+          </div>
+          <div class = "col-lg-4">
+            <label class="form-control-label" for="form-group-input">Email</label>
+            <input type="text" class="form-control" id="form-group-input" name="email">
+          </div>
+          <div class = "col-lg-3">
+            <label class="form-control-label" for="form-group-input">Number</label>
+             <input type="text" class="form-control" id="form-group-input" name="number">
+          </div>
+          <div class = "col-lg-1">
+        </div>
+        </div>
+        </br>
+        <div class = "row mx-5">
+        <div class = "col-lg-1">
+        </div>
+          <div class = "col-lg-10">
+            <label class="form-control-label" for="form-group-input">Message</label>
+            <textarea class="form-control" id="form-group-input" name="Message" rows="6"></textarea>
+          </div>
+          <div class = "col-lg-1">
+        </div>
+        </div> 
+        <div class = "row mx-5">
+        <div class= "col-lg-12 text-center">
+          <a class="btn btn-dark btn-xl sr-button mt-4" href="http://startbootstrap.com/template-overviews/creative/">Contact Us</a>        
+        </div> 
+        </div>               
+      </div>
     </section>
 <!-- Footer 3 -->
     <footer>
         
         <div class="footer-top3"> 
-           <div class="row" style="border-top:1px solid grey;">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center" >
-                   <a href="#"><i class="fa fa-facebook fa-2x"></i>Facebook</a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-                   <a href="#"><i class="fa fa-twitter fa-2x"></i>Twitter</a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-                   <a href="#"><i class="fa fa-flickr fa-2x"></i>Flickr</a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-                    <a href="#"><i class="fa fa-tumblr fa-2x"></i>Tumblr</a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-                    <a href="#"><i class="fa fa-github fa-2x"></i>Github</a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-                    <a href="#"><i class="fa fa-google-plus fa-2x"></i>Google</a>
-                </div>
-           </div> 
-        </div>  
-        
+ <div class="col-md-12 col-sm-12 col-xs-12">
+                 
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active text-center">
+                 <div class="row">
+                  <div class = "col-md-1 col-xs-4">
+                  </div>
+
+                   <div class="col-md-2 col-xs-4 my-4"><a href="http://reg.thonburi-u.ac.th/registrar/home.asp" class="thumbnail"><img src="./img/KellerWilliams_Greater_Cleveland_Logo_rev-W.png" alt="Image" style="height:60px;"></a></div>
+
+                   <div class="col-md-2 col-xs-4 my-4"><a href="http://www.spu.ac.th/" class="thumbnail"><img src="./img/YTR-Logo-White.png" alt="Image" style="height:60px;"></a></div>
+
+                   <div class="col-md-2 col-xs-4 my-4"><a href="http://www.spu.ac.th/" class="thumbnail"><img src="./img/HHA_Main_BW.png" alt="Image" style="height:60px;"></a></div>
+
+                   <div class="col-md-2 col-xs-4 my-4 text-right"><a href="http://www.kkopenzoo.com/" class="thumbnail"><img src="./img/g&g properties.png" alt="" style="height:60px;"></a></div>
+
+                   <div class="col-md-2 col-xs-4 my-4"><a href="http://www.spu.ac.th/" class="thumbnail"><img src="./img/blossom homes logo.png" alt="Image" style="height:60px;"></a></div>
+
+                  <div class = "col-md-1 col-xs-4">
+                  </div>
+
+                 </div><!--.row-->
+                </div><!--.item-->         
         <div class="container">
             <div class="row text-center">   
                 <div class="col-lg-12 col-lg-offset-3">

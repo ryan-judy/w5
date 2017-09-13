@@ -35,13 +35,14 @@ h4,
 h5,
 h6 {
   @include sans-serif-font;
+  font-weight: bold;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 
 .bg-primary {
@@ -58,7 +59,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
   .about-primary {
     background-image: "./img/vicinity map.jpg";
   }
