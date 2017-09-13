@@ -25,11 +25,14 @@
  text-decoration: none;
  cursor: pointer;
  color: white;
+ font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+ font-weight: bold;
 
- &:hover {
+
+ &:hover, &:focus {
   background-color: white;
   color: black;
-   text-decoration: none;
+  text-decoration: none;
 
  }
 
@@ -97,7 +100,7 @@ footer ul li a{
 }
 
 footer ul li a:hover{
-  color:#7dabdb;
+  color:#8b8d8f;
   text-decoration:none;
 }
 
@@ -128,7 +131,7 @@ footer ul li a:hover{
 
 .copyright p{
   font-size:12px;
-  padding:15px 0 10px 0;
+  padding:15px 0px 15px 0px;
 }
 
 #top{
@@ -177,10 +180,10 @@ footer ul li a:hover{
 }
 
 .footer-top2 .col-lg-2:hover a{
-    color:#FFF;
+  color:#FFF;
   text-decoration:none;
   background:#7dabdb;
-    transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 /*  Footer 2 End */
@@ -234,4 +237,24 @@ section.about-primary {
     height: 80px;
     background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%30FF0000' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     color: black;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
 }

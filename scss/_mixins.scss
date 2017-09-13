@@ -7,25 +7,21 @@
   &.focus,
   &:focus {
     color: $color;
-    border-color: darken($border, 25%);
     background-color: darken($background, 10%);
   }
   &:hover {
     color: $color;
-    border-color: darken($border, 12%);
     background-color: darken($background, 10%);
   }
   &.active,
   &:active,
   .open > &.dropdown-toggle {
     color: $color;
-    border-color: darken($border, 12%);
     background-color: darken($background, 10%);
     &.focus,
     &:focus,
     &:hover {
       color: $color;
-      border-color: darken($border, 25%);
       background-color: darken($background, 17%);
     }
   }
@@ -46,7 +42,6 @@
   }
   .badge {
     color: $background;
-    background-color: $color;
   }
 }
 @mixin transition-all() {
